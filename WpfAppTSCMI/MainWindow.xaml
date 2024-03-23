@@ -25,11 +25,13 @@
             <TextBlock FontFamily="Segoe Print" FontSize="15" Foreground="#FF091154" Text="Выбери мелодию!" TextAlignment="Center" VerticalAlignment="Center" />
         </DockPanel>
         <StackPanel Grid.Column="0" Grid.Row="1">
-            <Button Content="Мелодия1" Padding="10" Margin="10" FontFamily="Cascadia Code SemiLight" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
-            <Button Content="Мелодия2" Padding="10" Margin="10" FontFamily="Cascadia Code SemiLight" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
-            <Button Content="Мелодия3" Padding="10" Margin="10" FontFamily="Cascadia Code SemiLight" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
-            <Button Content="Мелодия4" Padding="10" Margin="10" FontFamily="Cascadia Code SemiLight" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
-            <Button Content="Мелодия5" Padding="10" Margin="10" FontFamily="Cascadia Code SemiLight" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
+            <Button Content="Мелодия1" Padding="8" Margin="9" FontFamily="Segoe Print" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
+            <Button Content="Мелодия2" Padding="8" Margin="9" FontFamily="Segoe Print" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
+            <Button Content="Мелодия3" Padding="8" Margin="9" FontFamily="Segoe Print" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
+            <Button Content="Мелодия4" Padding="8" Margin="9" FontFamily="Segoe Print" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
+            <Button Content="Мелодия5" Padding="8" Margin="9" FontFamily="Segoe Print" FontSize="14" Background="#FF6281FF" Foreground="#FF091440" BorderBrush="#FF091440"/>
+            <TextBlock FontFamily="Segoe Print" Margin="3" FontSize="12" Foreground="#FF091154" Text="Регулировка громкости" TextAlignment="Center" VerticalAlignment="Center" />
+            <Slider Maximum="1" Value="0.5" LargeChange="0.1" SmallChange="0.01" Foreground="#FF091440" Background="Transparent"></Slider>
         </StackPanel>
         <DockPanel Grid.Column="1" Grid.Row="0" Background="#FF28DAF1">
             <TextBlock FontFamily="Segoe Print" FontSize="20" Foreground="#FF091154" Text="Раскрась милую картинку!" TextAlignment="Center" VerticalAlignment="Center" />
